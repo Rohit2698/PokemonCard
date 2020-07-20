@@ -1,0 +1,35 @@
+.score_main{
+    padding-top: 100px;
+}
+.score_main button{
+    margin-left:30%;
+    border: 0px;
+}
+.score_main button span{
+    font-size: 20px;
+    box-shadow: 1px 1px 10px black;
+    padding-left:10px ;
+    padding-right:10px;
+    font-family: cursive;
+}
+
+.score_player{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.score_player:first-of-type{
+   font-size: 30px;
+   font-family: cursive;
+}
+
+@media screen and (max-width:600px){
+    .score_main{
+        padding-top:10%;
+    }
+    
+.score_player{
+    margin-top: 0;
+    margin-bottom: 20%;
+}   
+}

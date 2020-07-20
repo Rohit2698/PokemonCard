@@ -1,0 +1,29 @@
+
+.user_name label{
+    font-size: 20px;
+    font-family: monospace;
+    word-spacing: 5px;
+}
+.user_name input{
+    width: 300px;
+    height: 40px;
+}
+
+.user_name input::placeholder{
+    font-family: monospace;
+    font-size:30px ;
+}
+
+@media screen and (max-width:600px){
+    .ash_img{
+        height: 200px;
+        width: 200px;
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
+    .user_name{
+        margin-left: 0;
+    }
+    
+        
+}

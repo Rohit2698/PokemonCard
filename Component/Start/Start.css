@@ -1,0 +1,33 @@
+.start_main_div{
+    background: rgb(245, 245, 254);
+        background: linear-gradient(
+          90deg,
+          rgb(245, 245, 254)0%,
+          rgba(240, 2, 2, 1) 41%,
+          rgba(240, 2, 2, 1) 70%
+        );
+        width:100%;
+        height:100vh;
+}
+
+.start_container{
+    position: relative;
+    top: 100px;
+    
+}
+.player_name{
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer{
+  
+  margin-top:-80px;
+}
+@media screen and (max-width:600px){
+.footer{
+  position: relative;
+  top:700px;
+  max-width:310px;
+}
+}

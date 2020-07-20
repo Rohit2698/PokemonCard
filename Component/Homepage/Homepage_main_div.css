@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.homepage_main_div{
+    height: 100vh;
+    background: rgb(245, 245, 254);
+    background: linear-gradient(
+      90deg,
+      rgba(245, 245, 254, 1) 0%,
+      rgba(240, 2, 2, 1) 41%,
+      rgba(240, 2, 2, 1) 70%
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.video{
+    margin-left: 20px;
+    width: 700px;
+    height: 700px;
+    
+}
+
+.homepage_main_div button{
+    margin-left: 100px;
+    margin-top: -60px;
+    width: 200px;
+    height: 200px;
+    border: 0px;
+    border-color:inherit ;
+    background-color: inherit;
+}
+.homepage_main_div button span{
+    font-family: fantasy;
+    font-size: 50px;
+    color: black;
+}
+.homepage_main_div button span span:first-child{
+    font-family: fantasy;
+    font-size: 70px;
+    color: yellow;
+}
+
+.homepage_main_div button:hover{
+    transform: scaleX(1.5);
+}
+
+@media screen and (max-width:600px){
+    .homepage_main_div{
+        width: 600px;
+        height: 1000px;
+        overflow-y: hidden;
+        background: rgb(245, 245, 254);
+        background: linear-gradient(
+          90deg,
+          rgb(245, 245, 254)0%,
+          rgba(240, 2, 2, 1) 41%,
+          rgba(240, 2, 2, 1) 70%
+        );
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .video{
+        margin-left:0;
+        width: 500px;
+        height: 500px;
+    }
+    .homepage_main_div button{
+        margin-left: 150px;
+        margin-top: -40px;
+    }
+    .homepage_main_div button span{
+        font-family: fantasy;
+        font-size: 50px;
+        color: black;
+    }
+    .homepage_main_div button span span:first-child{
+        font-family: fantasy;
+        font-size: 70px;
+        color: yellow;
+    }
+       
+}

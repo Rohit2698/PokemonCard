@@ -1,0 +1,42 @@
+.footer{
+    
+    box-shadow: 1px 1px 10px yellow;
+    margin-top: 100px;
+    background: rgb(245, 245, 254);
+    background: linear-gradient(
+      90deg,
+      rgba(245, 245, 254, 1) 0%,
+      rgba(240, 2, 2, 1) 41%,
+      rgba(240, 2, 2, 1) 70%
+    );
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+
+}
+.card{
+    box-shadow: 1px 1px 10px black;
+}
+.copyright{
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: black;
+}
+.logos{
+    
+    margin-left: -35px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:600px){
+    .footer{
+        margin-top:-100px;
+        width: 600px;
+    }
+}
